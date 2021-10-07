@@ -32,7 +32,7 @@
                      &kp LCTRL &kp LALT &kp LGUI &sk LG(LS(LA(LCTRL)))  &mo NAVI   &kp SPACE    &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp K_VOL_UP K_VOL_DN>;
         };
 
         navi_layer {
@@ -51,7 +51,7 @@
                     &trans    &trans      &trans    &trans    &trans   &trans   &trans    &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp K_VOL_UP K_VOL_DN>;
         };
 
         numb_layer {
@@ -69,7 +69,7 @@
                         &trans       &trans       &trans       &trans     &trans   &kp N0    &trans       &trans      &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp K_VOL_UP K_VOL_DN>;
         };
 
         punk_layer {
@@ -87,7 +87,7 @@
                         &trans       &trans       &trans       &trans     &trans   &trans    &trans       &trans      &trans       &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp K_VOL_UP K_VOL_DN>;
         };
     };
 };
